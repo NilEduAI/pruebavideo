@@ -1,0 +1,74 @@
+/* ... (resto de tus estilos) ... */
+
+/* Estilos para las respuestas */
+#answers-container button {
+    /* ... (estilos de botones de respuesta) ... */
+}
+
+#answers-container button:hover {
+    /* ... */
+}
+
+#answers-container button.selected {
+    /* ... */
+}
+
+#answers-container button.correct {
+    background-color: var(--success-color); /* Usa la variable CSS aquí */
+    color: #fff;
+    border-color: var(--success-color);
+}
+
+#answers-container button.incorrect {
+    background-color: var(--danger-color); /* Usa la variable CSS aquí */
+    color: #fff;
+    border-color: var(--danger-color);
+}
+
+#feedback {
+    /* ... (estilos de feedback) ... */
+    /* No uses style="color: var(...)" aquí */
+}
+
+/* Estilos para el texto de feedback (verde/rojo) */
+#feedback.correct {
+    color: var(--success-color);
+}
+
+#feedback.incorrect {
+    color: var(--danger-color);
+}
+
+
+/* Sección de Revisión */
+.review-item {
+    /* ... (estilos base del item de revisión) ... */
+}
+
+/* Asegúrate de que las clases correct/incorrect en review-item afectan al texto */
+.review-item.correct {
+    border-left-color: var(--success-color);
+    background-color: #f0fff0; /* Fondo más claro para correcto */
+    border-color: #d4edda;
+}
+.review-item.incorrect {
+    border-left-color: var(--danger-color);
+    background-color: #fff0f0; /* Fondo más claro para incorrecto */
+    border-color: #f5c6cb;
+}
+
+/* Estilo específico para el texto de feedback dentro del item de revisión */
+.review-item .feedback-text {
+   font-weight: bold;
+   /* El color se aplicará por herencia o por las clases correct/incorrect en review-item si los selectores son adecuados */
+}
+
+.review-item.correct .feedback-text {
+    color: var(--success-color);
+}
+.review-item.incorrect .feedback-text {
+    color: var(--danger-color);
+}
+
+
+/* ... (resto de tus estilos) ... */
