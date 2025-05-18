@@ -213,7 +213,7 @@ function checkAnswer() {
 
     if (!selectedButton) {
         feedback.textContent = getLocalizedText('select_answer_prompt');
-        feedback.style.color = var('--danger-color', '#dc3545');
+        feedback.style.color = '#dc3545'; // Usar el código hexadecimal como una cadena
         return;
     }
 
