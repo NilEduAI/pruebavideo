@@ -1,0 +1,17 @@
+{
+    "app_title": "Video Interactivo con Preguntas",
+    "main_heading": "Video Interactivo con Preguntas",
+    "submit_button": "Enviar Respuesta",
+    "reset_button": "Reiniciar",
+    "correct_feedback": "¡Correcto!",
+    "incorrect_feedback": "Incorrecto. Intenta de nuevo.",
+    "select_answer_prompt": "Por favor, selecciona una respuesta.",
+    "review_heading": "Revisión de Preguntas",
+    "restart_video_button": "Volver a Empezar",
+    "review_your_answer": "Tu respuesta:",
+    "review_correct_answer": "Respuesta correcta:",
+    "review_result_correct": "Correcto",
+    "review_result_incorrect": "Incorrecto",
+    "progress_aria_label": "Progreso del vídeo",
+    "progress_text_sr_only": "{progress}% completado"
+}

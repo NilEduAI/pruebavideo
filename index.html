@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="app_title">Video Interactivo</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome para iconos (opcional, pero mejora la UI) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class="container">
+        <h1 data-i18n="main_heading">Video Interactivo con Preguntas</h1>
+
+        <div class="video-wrapper">
+            <!-- El iframe de YouTube. enablejsapi=1 es crucial para la API de JavaScript -->
+            <!-- origin=URL_DE_TU_PAGINA_WEB_GITHUB es VITAL para que la API funcione correctamente. -->
+            <!-- ¡Cambia 'tu-usuario.github.io' por tu dominio real de GitHub Pages! -->
+            <iframe id="youtube-player"
+                    width="100%"
+                    height="auto"
+                    src="https://www.youtube.com/embed/UFX20f2VqjI?enablejsapi=1&origin=https://nileduai.github.io/pruebavideo&controls=0"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen>
+            </iframe>
+
+            <!-- Overlay para las preguntas -->
+            <div id="question-overlay" class="overlay" style="display: none;">
+                <div class="question-card" role="dialog" aria-modal="true" aria-labelledby="question-text">
+                    <h2 id="question-text"></h2>
+                    <div id="answers-container" role="radiogroup" aria-labelledby="question-text"></div>
+                    <p id="feedback" aria-live="polite"></p>
+                    <button id="submit-answer" class="btn btn-primary" aria-label="Enviar respuesta"><i class="fas fa-check"></i> <span data-i18n="submit_button">Enviar Respuesta</span></button>
+                    <button id="reset-progress" class="btn btn-secondary" aria-label="Reiniciar progreso" style="display: none;"><i class="fas fa-redo"></i> <span data-i18n="reset_button">Reiniciar</span></button>
+                </div>
+            </div>
+        </div>
+
+        <div id="progress-bar-container" aria-label="Progreso del video">
+            <div id="progress-bar"></div>
+            <span id="progress-text" class="sr-only">0% completado</span>
+        </div>
+
+        <div id="review-section" class="review-section" style="display: none;">
+            <h2 data-i18n="review_heading">Revisión de Preguntas</h2>
+            <div id="review-content"></div>
+            <button id="restart-video" class="btn btn-primary" aria-label="Volver a empezar el vídeo"><i class="fas fa-play-circle"></i> <span data-i18n="restart_video_button">Volver a Empezar</span></button>
+        </div>
+    </div>
+
+    <!-- Carga la API de YouTube Player de forma asíncrona -->
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="script.js"></script>
+</body>
+</html>

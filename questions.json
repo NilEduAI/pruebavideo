@@ -1,0 +1,123 @@
+[
+  {
+    "time": 5,
+    "question": "¿Cuál es la primera fase del proceso de desarrollo de software mencionada?",
+    "answers": [
+      {"text": "Análisis de Requisitos", "correct": true},
+      {"text": "Diseño", "correct": false},
+      {"text": "Codificación", "correct": false},
+      {"text": "Pruebas", "correct": false}
+    ],
+    "randomize": true
+  },
+   {
+    "time": 10,
+    "question": "¿Qué actividad clave se realiza durante el Análisis de Requisitos?",
+    "answers": [
+      {"text": "Documentar las necesidades del usuario", "correct": true},
+      {"text": "Escribir el código", "correct": false},
+      {"text": "Instalar el software", "correct": false},
+      {"text": "Corregir errores en producción", "correct": false}
+    ],
+    "randomize": true
+  },
+  {
+    "time": 15,
+    "question": "¿Qué se decide principalmente en la fase de Diseño?",
+    "answers": [
+      {"text": "Cómo funcionará el software (arquitectura, UI/UX)", "correct": true},
+      {"text": "El costo total del proyecto", "correct": false},
+      {"text": "Los usuarios finales del sistema", "correct": false},
+      {"text": "La documentación legal", "correct": false}
+    ],
+    "randomize": true
+  },
+   {
+    "time": 20,
+    "question": "¿Es importante considerar la Usabilidad (UX/UI) en la fase de Diseño?",
+    "answers": [
+      {"text": "Sí, es fundamental para que los usuarios puedan usarlo fácilmente", "correct": true},
+      {"text": "No, solo es importante el código", "correct": false},
+      {"text": "Solo si el proyecto es muy grande", "correct": false},
+      {"text": "Solo en la fase de pruebas", "correct": false}
+    ],
+    "randomize": true
+  },
+  {
+    "time": 28,
+    "question": "¿Qué tarea principal se lleva a cabo en la fase de Implementación?",
+    "answers": [
+      {"text": "Escribir el código fuente del programa", "correct": true},
+      {"text": "Definir los requisitos", "correct": false},
+      {"text": "Realizar pruebas de aceptación del cliente", "correct": false},
+      {"text": "Planificar el mantenimiento futuro", "correct": false}
+    ],
+    "randomize": true
+  },
+   {
+    "time": 35,
+    "question": "¿Qué tipo de pruebas suelen empezar en la fase de Implementación?",
+    "answers": [
+      {"text": "Pruebas unitarias", "correct": true},
+      {"text": "Pruebas de sistema", "correct": false},
+      {"text": "Pruebas de carga", "correct": false},
+      {"text": "Pruebas de estrés", "correct": false}
+    ],
+    "randomize": true
+  },
+  {
+    "time": 42,
+    "question": "¿Cuál es el objetivo principal de la fase de Pruebas?",
+    "answers": [
+      {"text": "Encontrar y corregir errores (bugs)", "correct": true},
+      {"text": "Añadir nuevas funcionalidades rápidamente", "correct": false},
+      {"text": "Diseñar la interfaz de usuario", "correct": false},
+      {"text": "Entregar el software al cliente final", "correct": false}
+    ],
+    "randomize": true
+  },
+   {
+    "time": 48,
+    "question": "¿Se realizan diferentes tipos de pruebas (unidad, integración, sistema) en la fase de Pruebas?",
+    "answers": [
+      {"text": "Sí, para cubrir distintos aspectos de la calidad", "correct": true},
+      {"text": "No, solo se hace un tipo de prueba", "correct": false},
+      {"text": "Solo si el software es muy complejo", "correct": false},
+      {"text": "Depende del lenguaje de programación", "correct": false}
+    ],
+    "randomize": true
+  },
+  {
+    "time": 58,
+    "question": "¿Qué implica la fase de Despliegue?",
+    "answers": [
+      {"text": "Instalar el software para que los usuarios lo puedan usar", "correct": true},
+      {"text": "Recopilar las necesidades iniciales", "correct": false},
+      {"text": "Diseñar la arquitectura del sistema", "correct": false},
+      {"text": "Buscar errores en el código", "correct": false}
+    ],
+    "randomize": true
+  },
+   {
+    "time": 68,
+    "question": "La fase de Mantenimiento ocurre después del despliegue y se centra en:",
+    "answers": [
+      {"text": "Corregir errores post-lanzamiento y añadir mejoras", "correct": true},
+      {"text": "La planificación inicial del proyecto", "correct": false},
+      {"text": "La creación de la interfaz de usuario", "correct": false},
+      {"text": "La ejecución de pruebas de integración", "correct": false}
+    ],
+    "randomize": true
+  },
+   {
+    "time": 75,
+    "question": "¿El video sugiere que el proceso de desarrollo de software siempre es lineal y no se puede volver atrás?",
+    "answers": [
+      {"text": "No, menciona que a menudo es iterativo", "correct": true},
+      {"text": "Sí, siempre es un proceso paso a paso y fijo", "correct": false},
+      {"text": "Solo en proyectos pequeños es lineal", "correct": false},
+      {"text": "Solo en proyectos grandes es lineal", "correct": false}
+    ],
+    "randomize": true
+  }
+]
